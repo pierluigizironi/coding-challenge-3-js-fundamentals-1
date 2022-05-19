@@ -36,3 +36,11 @@ const dolphinAverageScore = (dolphinFirstScore + dolphinSecondScore + dolphinThi
 console.log(dolphinAverageScore);
 const koalaAverageScore = (koalaFirstScore + koalaSecondScore + koalaThirdScore) / 3;
 console.log(koalaAverageScore);
+
+if(dolphinAverageScore > koalaAverageScore) {
+    console.log(`The Dolphins (${dolphinAverageScore}) have won over Kooalas (${koalaAverageScore})!`);
+} else if(koalaAverageScore > dolphinAverageScore) {
+    console.log(`The Koalas (${koalaAverageScore}) have won over Dolphins (${dolphinAverageScore})!`)
+} else {
+    console.log(`It's a draw!`)
+}
