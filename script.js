@@ -22,8 +22,6 @@ Test data:
 2. Uso l'if per determinare chi è il vincitore e lo notifico tramite console.log
 3. Uso else per un possibile pareggio tra i due mediani
 
-*/
-
 const dolphinFirstScore = 96;
 const dolphinSecondScore = 108;
 const dolphinThirdScore = 89;
@@ -32,15 +30,34 @@ const koalaFirstScore = 88;
 const koalaSecondScore = 91;
 const koalaThirdScore = 110;
 
-const dolphinAverageScore = (dolphinFirstScore + dolphinSecondScore + dolphinThirdScore) / 3;
-console.log(dolphinAverageScore);
-const koalaAverageScore = (koalaFirstScore + koalaSecondScore + koalaThirdScore) / 3;
-console.log(koalaAverageScore);
-
 if(dolphinAverageScore > koalaAverageScore) {
     console.log(`The Dolphins (${dolphinAverageScore}) have won over Kooalas (${koalaAverageScore})!`);
 } else if(koalaAverageScore > dolphinAverageScore) {
-    console.log(`The Koalas (${koalaAverageScore}) have won over Dolphins (${dolphinAverageScore})!`)
+    console.log(`The Koalas (${koalaAverageScore}) have won over Dolphins (${dolphinAverageScore})!`);
 } else {
-    console.log(`It's a draw!`)
+    console.log(`It's a draw!`);
+}
+*/
+
+
+const dolphinFirstScore = 97;
+const dolphinSecondScore = 112;
+const dolphinThirdScore = 101;
+
+const koalaFirstScore = 109;
+const koalaSecondScore = 105;
+const koalaThirdScore = 123;
+
+
+const dolphinAverageScore = (dolphinFirstScore + dolphinSecondScore + dolphinThirdScore) / 3;
+console.log(`dolphin ${dolphinAverageScore}`);
+const koalaAverageScore = (koalaFirstScore + koalaSecondScore + koalaThirdScore) / 3;
+console.log(`koala ${koalaAverageScore}`);
+
+if(dolphinAverageScore && koalaAverageScore >= 100 && dolphinAverageScore > koalaAverageScore) {
+    console.log(`The Dolphins (${dolphinAverageScore}) have won over Kooalas (${koalaAverageScore})!`);
+} else if(dolphinAverageScore && koalaAverageScore >= 100 && koalaAverageScore > dolphinAverageScore) {
+    console.log(`The Koalas (${koalaAverageScore}) have won over Dolphins (${dolphinAverageScore})!`);
+} else {
+    console.log(`It's a draw!`);
 }
