@@ -17,4 +17,10 @@ Test data:
 § Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
 § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+
+1. Trovo la mediana di tutti e tre i punti di ciascuna squadra;
+2. Uso l'if per determinare chi è il vincitore e lo notifico tramite console.log
+3. Uso else per un possibile pareggio tra i due mediani
+
 */
+
