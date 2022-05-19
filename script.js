@@ -24,3 +24,10 @@ Test data:
 
 */
 
+const dolphinFirstScore = 96;
+const dolphinSecondScore = 108;
+const dolphinThirdScore = 89;
+
+const koalaFirstScore = 88;
+const koalaSecondScore = 91;
+const koalaThirdScore = 110;
