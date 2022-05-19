@@ -31,3 +31,8 @@ const dolphinThirdScore = 89;
 const koalaFirstScore = 88;
 const koalaSecondScore = 91;
 const koalaThirdScore = 110;
+
+const dolphinAverageScore = (dolphinFirstScore + dolphinSecondScore + dolphinThirdScore) / 3;
+console.log(dolphinAverageScore);
+const koalaAverageScore = (koalaFirstScore + koalaSecondScore + koalaThirdScore) / 3;
+console.log(koalaAverageScore);
