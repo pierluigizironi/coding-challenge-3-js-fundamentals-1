@@ -37,6 +37,9 @@ if(dolphinAverageScore > koalaAverageScore) {
 } else {
     console.log(`It's a draw!`);
 }
+const koalaFirstScore = 109;
+const koalaSecondScore = 105;
+const koalaThirdScore = 123;
 */
 
 
@@ -45,8 +48,8 @@ const dolphinSecondScore = 112;
 const dolphinThirdScore = 101;
 
 const koalaFirstScore = 109;
-const koalaSecondScore = 105;
-const koalaThirdScore = 123;
+const koalaSecondScore = 95;
+const koalaThirdScore = 106;
 
 
 const dolphinAverageScore = (dolphinFirstScore + dolphinSecondScore + dolphinThirdScore) / 3;
@@ -58,6 +61,8 @@ if(dolphinAverageScore && koalaAverageScore >= 100 && dolphinAverageScore > koal
     console.log(`The Dolphins (${dolphinAverageScore}) have won over Kooalas (${koalaAverageScore})!`);
 } else if(dolphinAverageScore && koalaAverageScore >= 100 && koalaAverageScore > dolphinAverageScore) {
     console.log(`The Koalas (${koalaAverageScore}) have won over Dolphins (${dolphinAverageScore})!`);
-} else {
+} else if (dolphinAverageScore && koalaAverageScore >= 100 && koalaAverageScore === dolphinAverageScore) {
     console.log(`It's a draw!`);
+} else {
+    console.log(`There is no winner!`)
 }
